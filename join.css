@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@900&family=Cormorant+Garamond&family=Ubuntu&display=swap');
+
+* {
+    font-family: 'Cormorant Garamond',
+        serif;
+    color:black;
+
+}
+
+
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p a {
+    text-decoration: underline;
+}
+
+form input {
+    font-size: large;
+    display: block;
+
+    text-align: center;
+    margin: 2rem;
+    padding: .5rem;
+}
+
+textarea{
+    color:black;
+
+}
+
+.sub {
+    padding: .5rem 5.5rem;
+    background-color: greenyellow;
+}
+
+.sub:hover {
+    background-color: chartreuse;
+}
+
+.error {
+    color: red;
+}

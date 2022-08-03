@@ -1,0 +1,29 @@
+.block{
+    display: block;
+    padding: 1rem;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    text-align: center;
+    margin-left: 10rem;
+    font-size: x-large;
+    margin-right: 10rem;
+    margin-top: 2rem;
+
+}
+
+.block{
+    color: black;
+    text-decoration: none;
+    transition: all 300ms ease-in-out;
+}
+
+
+.block:hover{
+    background-color: grey;
+    color: white;
+    text-decoration: none;
+}
+
+.blocks{
+    margin-top: 6rem;
+}
+

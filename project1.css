@@ -1,0 +1,28 @@
+
+#di{
+	background-image: url('images/back4.png');
+	position: relative;    
+}
+.j{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-family:Algerian;
+    color:rgb(53, 22, 5);
+}
+.ki{
+    font-family: 'Times New Roman', Times, serif;
+	padding: 12px;
+	color: rgb(20, 11, 61);
+}
+.tn{
+
+	padding: 20px 50px;
+	border: 2px solid white;
+	background-color:rgba(5, 59, 66, 0.772);
+	color: white;
+	margin: 25px;
+	font-size: 2rem;
+	cursor: pointer;
+    border-radius: 30px;
+}

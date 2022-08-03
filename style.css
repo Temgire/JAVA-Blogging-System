@@ -1,0 +1,72 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/*css Variables */
+:root{
+	--navbar-height: 59px;
+}
+/*Navigation Bar */
+#navbar{
+	display: flex;
+	align-items: center;
+}
+/*logo and image*/
+*logo{
+	margin: 10px 34px;
+}
+#logo img{
+	margin: 3px 6px;
+}
+#navbar{
+	position: relative;
+	background-color: black;
+}
+#navbar ul{
+	display: flex;
+}
+#navbar::before{
+	content: "";
+	background-color: black;
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	z-index: -1;
+	opacity: 0.7;
+}
+#navbar ul li{
+	/* color: white;*/
+	list-style: none;
+	font-size: 2rem;
+}
+#navbar ul li a{
+	color: white;
+	display: block;
+	padding: 3px 22px;
+	border-radius: 20px;
+	text-decoration: none;
+	transition: all 400ms ease-in-out;
+}
+#navbar ul li a:hover{
+	color: black;
+	background-color: white;
+}
+
+
+
+.sub{
+	display: none;
+}
+.navbar ul li:focus-within .sub{
+	display: block;
+	position: absolute;
+	background-color: black;
+	opacity: 0.7;
+	margin-top: 20px;
+	margin-left: -15px;	
+}
+.navbar ul li:focus-within .sub ul{
+	display: flex;
+	flex-direction: column;
+	margin: 10px;
+}
